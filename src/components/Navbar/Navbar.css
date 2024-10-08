@@ -1,0 +1,67 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    font-size: 20px;
+}
+
+.nav-connect {
+    padding: 15px 25px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25, #B923E1); 
+    font-size: 22px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: transform 0.5s ease; 
+}
+
+.nav-connect:hover {
+    transform: scale(1.05); 
+}
+
+/* Navbar.css */
+.nav-menu {
+    display: flex;
+    list-style: none;
+    font-weight: 600;
+  }
+  
+  .nav-menu li {
+    margin: 0 15px;
+    cursor: pointer;
+    padding-bottom: 5px;
+    font-size: 18px; /* Adjust font size as needed */
+    transition: color 0.3s ease, transform 0.3s ease, background 0.5s ease; /* Smooth transitions */
+  }
+  
+  .nav-menu li:hover, .nav-menu .active {
+    background: linear-gradient(267deg, #DA7C25, #B923E1);
+    -webkit-background-clip: text; /* Clips background to text */
+    -webkit-text-fill-color: transparent; /* Makes text color transparent to show gradient */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: translateY(-2px); /* Optional: lift effect on hover */
+  }
+  
+  .nav-menu .active {
+    border-bottom: 2px solid #DA7C25; /* Underline effect */
+  }
+  
+  .nav-connect {
+    padding: 15px 25px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25, #B923E1);
+    font-size: 22px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+  }
+  
